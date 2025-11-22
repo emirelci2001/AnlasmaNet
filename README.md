@@ -56,4 +56,4 @@ Issue açarak hata/öneri bildirebilirsiniz. Küçük PR’lar memnuniyetle.
 Yerel çalıştırma için 200MB’a kadar PDF desteği; RAM/CPU’ya bağlı olarak büyük dosyalarda bekleme süreleri artabilir.
 
 ## Lisans
-- MIT License (© 2025 emirelci2001)
+- MIT License (© 2025 Emir Elci)
