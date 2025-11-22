@@ -13,8 +13,8 @@ Minimal, profesyonel ve tamamen Türkçe bir sözleşme analizi demosu. PDF veya
 - Minimal UI, tek akış: "Analiz Et"
 
 ## Ekran Görüntüleri
-![Avukat UI](docs/screenshots/lawyer_ui.png)
-![Freelancer UI](docs/screenshots/freelancer_ui.png)
+![Avukat UI](docs/screenshots/lawyer_ui.svg)
+![Freelancer UI](docs/screenshots/freelancer_ui.svg)
 
 ## Rozetler
 - CI: Python smoke test (GitHub Actions)
