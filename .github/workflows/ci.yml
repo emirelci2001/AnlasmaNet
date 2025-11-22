@@ -16,6 +16,15 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+      - name: Inline smoke
+        shell: bash
+        run: |
+          python - <<'PY'
+          from analyze import advanced_analyze
+          res = advanced_analyze("Taraflar hizmet sağlayacaktır. Gizlilik 6 ay. Ödeme 30 gün.", audience="Freelancer")
+          assert isinstance(res, dict) and res.get("score", 0) >= 1
+          print("ok", res["score"])
+          PY
       - name: Smoke test
         run: |
           python tests/smoke.py
