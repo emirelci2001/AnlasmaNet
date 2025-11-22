@@ -10,6 +10,13 @@ Minimal, profesyonel ve tamamen Türkçe bir sözleşme analizi demosu. PDF veya
 - PDF metin çıkarma ve hızlı çalıştırmalar için önbellekleme
 - Minimal UI, tek akış: "Analiz Et"
 
+## Ekran Görüntüleri
+> Not: Aşağıya iki görsel ekleyin (Avukat/Freelancer modları). Öneri konum: `docs/screenshots/`.
+
+## Rozetler
+- CI: Python smoke test (GitHub Actions)
+- Dil: Türkçe analiz, Streamlit UI
+
 ## Hızlı Başlangıç
 Önkoşullar: `Python 3.11`
 
@@ -41,6 +48,12 @@ Tarayıcıda açılan arayüzde:
 
 ## Teknoloji
 - `Python`, `Streamlit`, `pdfplumber`, `requests`
+
+## Katkı
+Issue açarak hata/öneri bildirebilirsiniz. Küçük PR’lar memnuniyetle.
+
+## Ekran Kartı / Kaynaklar
+Yerel çalıştırma için 200MB’a kadar PDF desteği; RAM/CPU’ya bağlı olarak büyük dosyalarda bekleme süreleri artabilir.
 
 ## Lisans
 - Şimdilik lisans belirtilmemiştir. Kamuya açık demodur.
