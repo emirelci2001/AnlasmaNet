@@ -549,7 +549,7 @@ if st.button("Analiz Et", key="btn_analyze"):
             except Exception:
                 pass
             html_report = f"<!DOCTYPE html><html><head><meta charset='utf-8'><title>AnlaşmaNet Raporu</title><style>body{{font-family:Segoe UI,Inter,Arial,sans-serif;line-height:1.6;color:#1b1b1b}} h1,h2,h3{{margin:0.6rem 0}} .score{{font-weight:600}} .footer{{margin-top:24px;font-size:12px;color:#555}}</style></head><body><h1>AnlaşmaNet Raporu</h1><div class='score'>Güven Puanı: {res2['score']}/10</div><hr/><pre>{report}</pre><div class='footer'>Bu analiz bilgilendirme amacı taşır; hukuki danışmanlık değildir.</div></body></html>"
-        st.download_button("HTML indir", data=html_report, file_name="anlasmanet_rapor.html", mime="text/html")
+            st.download_button("HTML indir", data=html_report, file_name="anlasmanet_rapor.html", mime="text/html")
         except Exception:
             pass
         st.download_button("Raporu indir (.md)", data=report, file_name="anlasmanet_rapor.md")
