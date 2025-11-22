@@ -1,5 +1,5 @@
 import json
-from app import advanced_analyze
+from analyze import advanced_analyze
 
 def main():
     text = "Taraflar arasında hizmet sağlanacaktır. Gizlilik 6 ay ile sınırlıdır. Ödeme vadesi 30 gündür."

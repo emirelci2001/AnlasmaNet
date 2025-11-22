@@ -1,6 +1,6 @@
 # AnlaşmaNet — Sözleşme Risk Analizi (Demo)
 
-![CI](https://github.com/emirelci2001/AnlasmaNet/actions/workflows/ci.yml/badge.svg) ![Python](https://img.shields.io/badge/python-3.11-blue.svg) ![Streamlit](https://img.shields.io/badge/Streamlit-1.51-ff4b4b.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg)
+![CI](https://github.com/emirelci2001/AnlasmaNet/actions/workflows/ci.yml/badge.svg) ![Python](https://img.shields.io/badge/python-3.11-blue.svg) ![Streamlit](https://img.shields.io/badge/Streamlit-1.51-ff4b4b.svg)
 
 Minimal, profesyonel ve tamamen Türkçe bir sözleşme analizi demosu. PDF veya metin olarak verilen sözleşmeyi inceler; riskleri çıkarır, güven puanı üretir, "Freelancer" ve "Avukat" modlarında anlaşılır bir rapor oluşturur ve öncelikli 3 revizyonu önerir.
 
