@@ -1,5 +1,7 @@
 # AnlaşmaNet — Sözleşme Risk Analizi (Demo)
 
+![CI](https://github.com/emirelci2001/AnlasmaNet/actions/workflows/ci.yml/badge.svg) ![Python](https://img.shields.io/badge/python-3.11-blue.svg) ![Streamlit](https://img.shields.io/badge/Streamlit-1.51-ff4b4b.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg)
+
 Minimal, profesyonel ve tamamen Türkçe bir sözleşme analizi demosu. PDF veya metin olarak verilen sözleşmeyi inceler; riskleri çıkarır, güven puanı üretir, "Freelancer" ve "Avukat" modlarında anlaşılır bir rapor oluşturur ve öncelikli 3 revizyonu önerir.
 
 ## Özellikler
@@ -11,7 +13,17 @@ Minimal, profesyonel ve tamamen Türkçe bir sözleşme analizi demosu. PDF veya
 - Minimal UI, tek akış: "Analiz Et"
 
 ## Ekran Görüntüleri
-> Not: Aşağıya iki görsel ekleyin (Avukat/Freelancer modları). Öneri konum: `docs/screenshots/`.
+Not: Aşağıya iki görsel ekleyin (Avukat/Freelancer modları). Öneri konum: `docs/screenshots/`.
+
+- Freelancer modu — `docs/screenshots/freelancer_ui.png`
+- Avukat modu — `docs/screenshots/lawyer_ui.png`
+
+Yükledikten sonra bu README’de ilgili görselleri aşağıdaki gibi gömebilirsiniz:
+
+```markdown
+![Freelancer UI](docs/screenshots/freelancer_ui.png)
+![Avukat UI](docs/screenshots/lawyer_ui.png)
+```
 
 ## Rozetler
 - CI: Python smoke test (GitHub Actions)
